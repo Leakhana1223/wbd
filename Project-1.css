@@ -86,7 +86,48 @@ p {
   max-width: 1080px;
   padding: 20px;
 }
-.aboutme {
+.about {
   flex-grow: 1;
   margin-top: 40px;
+}
+.skills {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+}
+.imfo {
+  margin-bottom: 20px;
+}
+.btn-skill button {
+  padding: 5px 10px;
+  border: none;
+  background-color: yellow;
+  cursor: pointer;
+}
+.btn-skill {
+  margin: 20px 20px 0 0;
+}
+.btn-skill button:first-child {
+  border-radius: 10px 0 0 10px;
+}
+.btn-skill button:last-child {
+  border-radius: 0 10px 10px 0;
+}
+.btn-pink {
+  background-color: pink !important;
+}
+.btn-green {
+  background-color: green !important;
+}
+p .text-hilight,
+p .text-skill {
+  background-color: yellow;
+  font-size: 13px;
+  padding: 2px 7px;
+}
+p .text-skill {
+  background-color: pink;
+}
+.skills .btn-skill {
+  margin: 20px 20px 0 0;
 }
