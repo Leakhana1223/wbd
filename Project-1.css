@@ -70,9 +70,23 @@
 p {
   margin: 5px 0px;
 }
+.address {
+  margin-bottom: 20px;
+}
 .address img {
   width: 20px;
 }
 .social-media img {
   width: 30px;
+  margin: 3px;
+}
+
+.myimformation {
+  display: flex;
+  max-width: 1080px;
+  padding: 20px;
+}
+.aboutme {
+  flex-grow: 1;
+  margin-top: 40px;
 }
