@@ -1,3 +1,6 @@
+body {
+  max-width: 2570px;
+}
 .navbar {
   max-width: 1500em;
   height: 15px;
@@ -114,10 +117,17 @@ p {
   border-radius: 0 10px 10px 0;
 }
 .btn-pink {
-  background-color: pink !important;
+  background-color: rgb(234, 129, 147) !important;
 }
 .btn-green {
   background-color: green !important;
+}
+
+.btn-skill button:hover {
+  background-color: rgba(227, 198, 64, 0.863);
+}
+.btn-pink button:hover {
+  background-color: rgba(33, 6, 6, 0.896) !important;
 }
 p .text-hilight,
 p .text-skill {
